@@ -155,10 +155,7 @@ while True:
                 catched = 1
             else:
                 game_over()
-                level = 1
-                n_ball = 1
-                seconds = 0
-                points = 0
+                level,n_ball,seconds,points = 1,1,0,0
                 el_dict = {'ball1':ball1_list, 'special ball': ball5_list}
                 pygame.time.set_timer(USEREVENT, t)
                 break
