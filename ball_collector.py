@@ -10,33 +10,27 @@ background = pygame.image.load('assets/background.png').convert()
 gameover = pygame.image.load('assets/game_over.png').convert()
 
 ballth = pygame.image.load('assets/ball_thrower.png').convert()
-ballth.set_colorkey((255,255,255))
 ballth.set_alpha(200)
 xballth = ballth.get_height()
 yballth = ballth.get_width()
 
 ball1 = pygame.image.load('assets/ball1.png').convert()
-ball1.set_colorkey((255,255,255))
 xball1 = ball1.get_height()
 yball1 = ball1.get_width()
 
 ball2 = pygame.image.load('assets/ball2.png').convert()
-ball2.set_colorkey((255,255,255))
 xball2 = ball2.get_height()
 yball2 = ball2.get_width()
 
 ball3 = pygame.image.load('assets/ball3.png').convert()
-ball3.set_colorkey((255,255,255))
 xball3 = ball3.get_height()
 yball3 = ball3.get_width()
 
 ball4 = pygame.image.load('assets/ball4.png').convert()
-ball4.set_colorkey((255,255,255))
 xball4 = ball4.get_height()
 yball4 = ball4.get_width()
 
 ball5 = pygame.image.load('assets/ball5.png').convert()
-ball5.set_colorkey((255,255,255))
 xball5 = ball5.get_height()
 yball5 = ball5.get_width()
 
